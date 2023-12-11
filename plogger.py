@@ -518,3 +518,17 @@ print(b-a)
 # ------------------------------------------------------------------------------------------------------------------------
 
 
+LOGGER_FILE_PATH = r"F:\Python(Rohit)\python_logger\practise_log.log"
+import logging
+
+logging.basicConfig(format="%(asctime)s---%(levelname)s---%(message)s", 
+                    filename= LOGGER_FILE_PATH, level = logging.DEBUG)
+
+
+
+logging.debug("This is debug")
+logging.info("This is info")
+logging.warning("This is warning")
+logging.error("This is error")
+logging.critical("This is critical")
+
