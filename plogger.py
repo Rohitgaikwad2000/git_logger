@@ -532,3 +532,7 @@ logging.warning("This is warning")
 logging.error("This is error")
 logging.critical("This is critical")
 
+# for loop:-
+
+for i in range(1,100):
+    print(i,"Rohit gaikwad")
