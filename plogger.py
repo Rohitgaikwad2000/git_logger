@@ -536,3 +536,13 @@ logging.critical("This is critical")
 
 for i in range(1,100):
     print(i,"Rohit gaikwad")
+
+
+
+a = int(input("Enter your first nubmer:- "))
+b = int(input("Enter your second nubmer:- "))
+print(a+b)
+
+
+
+print("hiii")
